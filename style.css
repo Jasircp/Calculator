@@ -1,0 +1,21 @@
+.bodycal{
+    height: 500px;
+    width: 400px;
+    background: lightblue;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(0, 0, 0);
+    
+}
+.calscreen{
+    width: 370px;
+    height: 80px;
+    border-radius: 5px;
+    border-color: rgb(106, 101, 101);
+    border: 3px;
+}
+.btn1{
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+}
