@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="bodycal m-auto">
+        <div id="dark1" class="bodycal m-auto">
             <div class="row">
                 <div class="col-12 text-center mt-2">
                     <input class="calscreen" id="screen" type="text" onkeydown="return false">
@@ -21,6 +21,9 @@
             <div class="row">
                 <div class="col-9">
                 <button type="button" onclick="clr()" class="btn1 btn btn-primary">C</button>
+                </div>
+                <div class="col-3">
+                    <button style="padding: 0;" type="button" onclick="toggleTheme(); modeChange()" id="myButton" class="btn1 btn btn-primary">Classic</button>
                 </div>
             </div>
             <div class="row">
